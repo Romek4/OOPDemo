@@ -11,7 +11,11 @@ namespace OOPDemo
         static void Main(string[] args)
         {
             Pupil pupil = new Pupil("Roman", "Popper");
-            Console.WriteLine(pupil.Name);
+            Pupil pupil2 = new Pupil("Martin", "Popper");
+
+            Console.WriteLine(pupil.ToString());
+            Console.WriteLine(pupil2.ToString());
+
         }
     }
 }
