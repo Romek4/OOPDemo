@@ -10,6 +10,8 @@ namespace OOPDemo
     {
         static void Main(string[] args)
         {
+            Pupil pupil = new Pupil("Roman", "Popper");
+            Console.WriteLine(pupil.Name);
         }
     }
 }
